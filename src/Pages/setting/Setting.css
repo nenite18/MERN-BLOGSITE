@@ -1,0 +1,106 @@
+.setting{
+    display: flex;
+}
+.settingWrap{
+    flex: 9;
+    padding: 20px;
+}
+.settingTitle{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+}
+.settingUpTitle{
+    font-size: 4vh;
+    margin-bottom: 30px;
+    color: lightcoral;
+    font-weight: bold;
+    font-family: 'Lora',sans-serif;
+    font-weight: bold;
+}
+
+.settingDelTitle{
+    padding: 10px;
+    font-size: 2.2vh;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: red;
+    font-family: 'Lora',sans-serif;
+    font-weight: bold;
+}
+
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}  
+.settingPP{
+    display: flex;
+    align-items: centre;
+    margin:10px 0;
+
+}
+.settingPP> img{
+    width: 100px;
+    height:100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingPPIcon{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(243, 89, 89);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.settingForm>label{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lora',sans-serif;
+    font-weight: bold;
+}
+.settingForm>input{
+    color: grey;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid lightgray;
+}
+.settingSubmit
+{
+    align-self: center;
+    width: 150px;
+    padding: 12px;
+    border: none;
+    border-radius: 115px;
+    background-color: teal;
+    color: white;
+    margin: 40px;
+    font-size: 2.5vh;
+    font-family: 'Lora',sans-serif;
+    font-weight: bold;
+
+
+}
+.settingSubmit:hover{
+    transform: scale(0.8);
+    background-color: rgb(243, 89, 89);
+    
+}
+.update{
+    font-size: 16px;
+    font-family: 'lora',sans-serif;
+    font-weight: 600;
+    align-self: center;
+    color: green;
+   
+
+}
+

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.register
+{
+        
+    margin-top: 0;
+    padding-top: 0px;
+    top: 0px;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQwfHxiYWNrZ3JvdW5kfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80');
+    background-size: cover; */
+    background-image: url('https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');  
+    background-size: cover;
+    background-color: teal;
+      font-weight: bold;
+    color: white;
+    z-index: 100;
+    
+}
+.registerCard{
+    height: 60vh;
+    width: 60vw;
+    
+
+}
+.registerForm{
+   margin-top:50px  ;
+   margin-left: 50px;
+   border-top: 10px solid teal;
+   border-left: 10px solid teal;
+   
+    height: 60vh;
+    width: 60vw;
+   background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora',sans-serif;
+    color: rgb(24, 23, 23);   
+
+   
+}
+.registerTitle{
+    font-size: 5vh;
+    font-weight: bold;
+    color: black;
+}
+.registerForm > label{
+    margin: 15px 0px;
+   
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-family: 'Lora',sans-serif;
+    color: rgb(94, 92, 92); 
+    font-weight: bold;
+    
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(231, 91, 10);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2vh;
+    font-weight: bold;
+
+}
+.Reglogin{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+   margin-top:40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: aqua;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+

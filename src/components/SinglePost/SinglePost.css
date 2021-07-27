@@ -1,0 +1,140 @@
+.p{
+    display: flex;
+}
+.singlePost{
+    flex: 8;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-left: 10px;
+    padding:20px ;
+    padding-right: 10px;
+    
+}
+.sinlePostWrap{
+    padding: 20px;
+    padding-right:5px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.singlePostImg{
+    width: 60vw;
+    height: 50vh;
+    /* border-radius: 5px; */
+    padding-right: 6vw;
+    margin-left: 10vw;
+    object-fit: cover;
+    /* border: 5px solid rgb(107, 235, 160); */
+    
+
+}
+@media(max-width:1200px) {
+    .singlePostImg{
+        width: 70vw;
+        height: 50vh;
+        margin-left: 8vw;
+        border-radius: 5px;        
+        object-fit: cover;
+        /* border: 5px solid rgb(107, 235, 160);
+         */
+    
+    }
+    
+}
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',sans-serif;
+    font-size: 3.5vh, 2.5vw;
+}
+
+.singlePostTitleInput{
+    
+    margin: 10px;
+    margin-left: 10vw;
+    font-family: 'Lora',sans-serif;
+    font-size: 3.5vh;
+    font-weight: 400;
+    width: 60vw;
+    height: 5vh;
+    outline: none;
+    color: black;
+    border: none;
+    border-bottom: 2px solid rgb(175, 173, 173);
+   
+    
+    
+}
+.singleEdit{
+    float: right;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px,solid, lightgrey;
+
+}
+.singlePostTitleInput:focus{
+    outline: none;
+
+}
+.icon{
+    padding-left: 8px;
+}
+.icon:first-child{
+    color:rgb(0, 81, 255);
+}
+.icon:last-child{
+    color: red;
+}
+.singlePostInfo{
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: rgb(43, 12, 221);
+    font-family: 'Lora',sans-serif;
+    font-weight: 200;
+
+}
+.singlePostDesc{
+    color:#666;
+    font-size: 16px;
+    line-height: 25px;
+}
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.singlePostDescInput{
+
+    margin: 10px;
+    margin-left: 10vw;
+    font-family: 'Lora',sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    width: 60vw;
+     height: 80vh;
+    outline: none;
+    color: rgb(105, 102, 102);
+    border: none;
+    border-bottom: 2px solid rgb(175, 173, 173);
+
+}
+.singlePostButton{
+    border: none;
+    width: 100px;
+    background-color: teal;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40vw;
+    
+    
+}
+
